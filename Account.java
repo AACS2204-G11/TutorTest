@@ -4,11 +4,12 @@ import java.util.Date;
 import java.util.Objects;
 import java.util.Scanner;
 
+
 public class Account {
     private String accountNo;
     private double balance;
     private Date date;
-
+    private int test;
 
     public Account(String accountNo, double balance) {
         this.accountNo = accountNo;
