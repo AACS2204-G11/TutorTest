@@ -9,7 +9,7 @@ public class Account {
     private String accountNo;
     private double balance;
     private Date date;
-    private int test;
+    private int change;
 
     public Account(String accountNo, double balance) {
         this.accountNo = accountNo;
